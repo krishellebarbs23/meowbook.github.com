@@ -1,0 +1,51 @@
+:root {
+  --bg-color: #fff;
+  --text-color: #525252;
+  --second-color: #5a7184;
+  --main-color: #6e54fa;
+  --big-font: 6rem;
+  --h2-font: 3rem;
+  --p-font: 1.1rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: aqua;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 20px;
+  display: flex;
+  padding-inline: 50px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar a {
+  background-color: rgb(67, 255, 67);
+}
+
+.home {
+  background-color: pink;
+  position: relative;
+}
